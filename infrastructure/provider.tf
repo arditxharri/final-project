@@ -4,14 +4,14 @@ provider "aws" {
   secret_key = var.AWS_SECRET_ACCESS_KEY
 }
 
-terraform {
-  cloud {
-    organization = "SUPERTORO"
+  backend "remote" {
+    organization = "axharri"
 
     workspaces {
-      name = "Final-Project-G1"
+      name = "axh"
     }
   }
+}
   required_providers {
     aws = {
       source  = "hashicorp/aws"
