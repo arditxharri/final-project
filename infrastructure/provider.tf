@@ -13,9 +13,6 @@ terraform {
   }
 }
 
-provider "aws" {
-  # Configuration options
-}
 
   backend "remote" {
     organization = "axharri"
