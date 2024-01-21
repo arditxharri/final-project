@@ -3,7 +3,7 @@ variable "AWS_ACCESS_KEY" {
   default = ""
 }
 
-variable "AWS_SECRET_ACCESS_KEY" {
+variable "AAWS_SECRET_KEY" {
   type    = string
   default = ""
 }
